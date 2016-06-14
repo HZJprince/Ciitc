@@ -57,11 +57,6 @@ namespace Ciitc
                 MessageBox.Show("导入程序正在执行，请不要重复点击!");
                 return;
             }
-            /*xmldel x = xml;
-            IAsyncResult re = x.BeginInvoke(null,null);
-            label1.Text = "开始导入";
-            x.EndInvoke(re);
-            label1.Text = "导入结束";*/
         }
         private void button2_Click(object sender, EventArgs e)
         {
