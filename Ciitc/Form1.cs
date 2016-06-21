@@ -44,6 +44,7 @@ namespace Ciitc
                 button2.Enabled = false;
                 button3.Enabled = false;
                 button4.Enabled = false;
+                button5.Enabled = false;
                 radioButton1.Enabled = false;
                 radioButton2.Enabled = false;
             }
@@ -116,6 +117,7 @@ namespace Ciitc
                 button2.Enabled = true;
                 button3.Enabled = true;
                 button4.Enabled = true;
+                button5.Enabled = true;
                 radioButton1.Enabled = true;
                 radioButton2.Enabled = true;
                 count = 0;
@@ -128,6 +130,7 @@ namespace Ciitc
                 button2.Enabled = true;
                 button3.Enabled = true;
                 button4.Enabled = true;
+                button5.Enabled = true;
                 radioButton1.Enabled = true;
                 radioButton2.Enabled = true;
                 count = 0;
@@ -144,6 +147,7 @@ namespace Ciitc
                 button2.Enabled = false;
                 button3.Enabled = false;
                 button4.Enabled = false;
+                button5.Enabled = false;
                 radioButton2.Enabled = false;
                 radioButton1.Enabled = false;
                 label1.Text = "正在删除数据";
@@ -175,6 +179,7 @@ namespace Ciitc
                 button2.Enabled = true;
                 button3.Enabled = true;
                 button4.Enabled = true;
+                button5.Enabled = true;
                 radioButton1.Enabled = true;
                 radioButton2.Enabled = true;
                 MessageBox.Show("清除出错");
@@ -186,6 +191,7 @@ namespace Ciitc
                 button2.Enabled = true;
                 button3.Enabled = true;
                 button4.Enabled = true;
+                button5.Enabled = true;
                 radioButton1.Enabled = true;
                 radioButton2.Enabled = true;
                 MessageBox.Show("清除完成");
